@@ -1,0 +1,60 @@
+/* Resetting default browser styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Page layout and spacing */
+  #main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading styles */
+  #title {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Image and caption styles */
+  #img-div {
+    text-align: center;
+    margin-top: 20px;
+  }
+  #image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  #img-caption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #666;
+  }
+  
+  /* Tribute info styles */
+  #tribute-info {
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 1.6;
+  }
+  
+  /* Link styles */
+  #tribute-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #007bff;
+  }
+  #tribute-link:hover {
+    text-decoration: underline;
+  }
+  
